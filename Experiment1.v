@@ -1,3 +1,5 @@
+//AND/OR/NOT
+
 module gates(input a, b, output [2:0]y);
 assign y[2]= a & b; // AND gate
 assign y[1]= a | b; // OR gate
